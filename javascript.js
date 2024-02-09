@@ -27,3 +27,4 @@ const flkty = new Flickity(carousel, options);
 flkty.on('scroll', () => {
     flkty.slides.forEach(setBgPosition);
 });
+
