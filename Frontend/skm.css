@@ -4,25 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bg img{
+/* .bg img{
     width: 100vw;
     height: 100vh;
   opacity: 70%;
-
-  
+    top: 0;
+    left: 0; 
     overflow: hidden;
- 
-  
-
-    background-position: center;
-}
+    /* position: absolute; */
+    /* background-position: center;
+}  */
 .container{
     height: 100vh;
     width: 100vw;
-    background: url(Assets/kerala-background.jpeg) no-repeat center;
+    background: url(Assets/Sikkim.jpg) no-repeat center;
     background-size: cover;
     backdrop-filter: blur( 15.5px );
     position: relative;
+
 }
 .gradient{
     position: absolute;
@@ -34,7 +33,7 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(244, 238, 244, 0.2));
 }
 .glass-panel{
-    background: url(Assets/kerala-background.jpeg) no repeat cover/center;
+    background: url(Assets/Sikkim.jpg) no repeat cover/center;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -52,7 +51,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(Assets/kerala-background.jpeg);
+    background-image: url(Assets/Sikkim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 40rem;
@@ -153,7 +152,33 @@ header h1{
 
 /*Details page*/
 
+/* .back-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: -1;
+    position: fixed;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.933);
+    background-blend-mode: overlay;
+  
+  }
+  @media (max-aspect-ratio:16/9){
+    .back-video{
+      width: auto;
+      height: 100%;
+    }
+  } */
+   #sikbg {
+    width: 100vw;
+    height:100vh;
+  opacity: 70%;
+  overflow: hidden;
 
+}
 #forms{
     font-size: 80px;
     color: #686464;
@@ -212,7 +237,7 @@ a{
 
     position: relative;
     height: 100%;
-    background-color: #3f5a36;
+    background-color: #55b5be;
     border-radius: 10px;
     padding: 30px 35px;
 }
@@ -311,7 +336,7 @@ a{
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(-35%, 0, -120px);
     --current-color1: #ECEAED;
-    --current-color2: #35c950;
+    --current-color2: #404457;
 }
 
 #s1:checked~.cards #slide1,
@@ -321,7 +346,7 @@ a{
 #s5:checked~.cards #slide5 {
     box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 50%);
     transform: translate3d(0, 0, 0);
-    --current-color1: #4cf84692;
+    --current-color1: #371f6b;
     --current-color2: #ECEAED;
 }
 
